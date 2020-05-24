@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+
+{% block main %}
+
+
+<h1 class="red" >Passcode incorrect. Please try again.</h1><br><br>
+   <form action="/passcode" method="post">
+        <fieldset>
+          <div class="form-group">
+            <input autofocus name="passcode" id="passcode" placeholder="Passcode" type="text" />
+          </div>
+          <button class="btn btn-default" type="submit">Check Passcode</button>
+        </fieldset>
+</form>
+{% endblock %}

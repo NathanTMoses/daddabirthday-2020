@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+
+{% block main %}
+<div><img class="pfp" src="/static/dadda.png"></div>
+<div>
+
+<h1>Happy Birthday Dadda!</h1>
+<br><br>
+<h3>Dear Dadda,</h3><br>
+   We hope you have a delightful and fun 51st birthday Dadda! We love you and hope you have many blessings and a long life.<br>
+   You must've come here because of the treasure hunt, Dadda. Here are the instructions:<br>
+<br>
+  <p></p> <b>1.</b> Compile all the clues you have in the order you found them. If you can't remember, there are numbers that correspond to the order you found them in the bottom right corner. <br>
+   <b>2.</b> Turn each clue around and enter the code into the text box below! There are no spaces, Dadda!<br><br> <p>
+   <h5>Enjoy, Dadda!</h5>
+   <br><br><br>
+   <form action="/passcode" method="post">
+        <fieldset>
+          <div class="form-group">
+            <input autocomplete="off" autofocus id="pass" placeholder="Passcode" type="text" />
+          </div>
+          <button class="btn btn-default" type="submit">Check Passcode</button>
+        </fieldset>
+</form>
+{% endblock %}

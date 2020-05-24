@@ -1,0 +1,7 @@
+flask-migrate
+Flask
+Flask-Session
+requests
+flask-sqlalchemy
+sqlalchemy
+flask
